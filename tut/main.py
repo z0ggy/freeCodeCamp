@@ -4,7 +4,6 @@ class Item:
         assert price >= 0, f"Price {price} is not grather or equal to zero!"
         assert quantity >= 0, f"Quantity {quantity} is not grather or equal to zero!"
 
-
         # Assign to self object
         self.name = name
         self.price = price
